@@ -5,7 +5,7 @@ The [simple terminal (st)](https://st.suckless.org/) with some additional featur
 ## Features
 
 + Ligatures.
-+ JetBrains Mono typeface at 14pt by default.
++ JetBrains Mono typeface at 15pt by default.
 + Three-line (configurable via config.h) scrollback using mouse wheel only.
 + Color scheme inspired by the One Dark syntax theme for the Atom text editor.
 
