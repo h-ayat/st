@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=st
+Comment=Monosans's fork of simple terminal
+Icon=utilities-terminal
+Exec=st
+Categories=System;TerminalEmulator
