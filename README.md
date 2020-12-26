@@ -16,11 +16,7 @@ The [simple terminal (st)](https://st.suckless.org/) with some additional featur
 
 ## Installation on Arch Linux and Arch Linux based distributions
 
-```
-git clone https://github.com/monosans/st
-cd st
-makepkg -si
-```
+Available in AUR as [st-monosans-git](https://aur.archlinux.org/packages/st-monosans-git/)
 
 ## Installation on other distributions
 
