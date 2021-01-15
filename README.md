@@ -1,6 +1,6 @@
 # My build of st - the simple (suckless) terminal
 
-The [simple terminal (st)](https://st.suckless.org/) with some additional features.
+The [simple terminal (st)](https://st.suckless.org) with some additional features.
 
 ## Features
 
@@ -16,7 +16,7 @@ The [simple terminal (st)](https://st.suckless.org/) with some additional featur
 
 ## Installation on Arch Linux and Arch Linux based distributions
 
-Available in AUR as [st-monosans-git](https://aur.archlinux.org/packages/st-monosans-git/)
+Available in the AUR as [st-monosans-git](https://aur.archlinux.org/packages/st-monosans-git)
 
 ## Installation on other distributions
 
@@ -26,6 +26,10 @@ git clone https://github.com/monosans/st
 cd st
 sudo make clean install
 ```
+
+## Note on emojis and special characters
+
+If st crashes when viewing emojis, install [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra) or [libxft-bgra-git](https://aur.archlinux.org/packages/libxft-bgra-git) from the AUR.
 
 ## Important note for OpenBSD users
 
