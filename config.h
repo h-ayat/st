@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:pixelsize=15:antialias=true:autohint=true";
+static char *font = "Cascadia Mono PL Roman:pixelsize=10:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -97,7 +97,7 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"#5c6370",
-	"#e06c75",
+	"#ff0e20",
 	"#98c379",
 	"#e5c07b",
 	"#61afef",
@@ -118,7 +118,7 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#282c34",
+	"#000000",
 };
 
 
