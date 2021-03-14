@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Cascadia Mono PL Roman:pixelsize=10:antialias=true:autohint=true";
+static char *font = "Cascadia Code PL:pixelsize=10:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -97,8 +97,8 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"#5c6370",
-	"#ff0e20",
-	"#98c379",
+	"#fff530",
+	"#199f03",
 	"#e5c07b",
 	"#61afef",
 	"#c678dd",
@@ -108,7 +108,7 @@ static const char *colorname[] = {
 	/* 8 bright colors */
 	"#4b5263",
 	"#be5046",
-	"#98c379",
+	"#199f03",
 	"#d19a66",
 	"#61afef",
 	"#c678dd",
