@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono NL:pixelsize=14:antialias=true:autohint=true";
+/*static char *font = "JetBrains Mono NL:pixelsize=14:antialias=true:autohint=true";*/
+static char *font = "Cascadia Code PL:size=12:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
@@ -182,6 +183,24 @@ static const char *colorname[] = {
 	"#d670d6",
 	"#29b8db",
 	"#e5e5e5",
+	/*"#5c6370",
+	"#ff0e20",
+	"#199f03",
+	"#fff530",
+	"#61afef",
+	"#c678dd",
+	"#56b6c2",
+	"#abb2bf",
+
+	// 8 bright colors 
+	"#4b5263",
+	"#be5046",
+	"#199f03",
+	"#d19a66",
+	"#61afef",
+	"#c678dd",
+	"#56b6c2",
+	"#3e4452",*/
 
 	[255] = 0,
 
