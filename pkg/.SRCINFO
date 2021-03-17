@@ -1,0 +1,25 @@
+pkgbase = st-monosans-git
+	pkgdesc = Simple (suckless) terminal with scrollback, ligatures and One Dark color scheme
+	pkgver = 0.8.4.r1142.197a78b
+	pkgrel = 2
+	url = https://github.com/monosans/st
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = libxext
+	makedepends = ncurses
+	depends = libxft
+	depends = harfbuzz
+	depends = ttf-jetbrains-mono
+	optdepends = libxft-bgra: if st crashes when viewing emojis
+	optdepends = libxft-bgra-git: if st crashes when viewing emojis
+	provides = st
+	conflicts = st
+	source = git://github.com/monosans/st
+	source = config.mk
+	sha256sums = SKIP
+	sha256sums = 328eab38522960e2155f3011a2839124f6da74a8dc3515378a9778824167a436
+
+pkgname = st-monosans-git
+

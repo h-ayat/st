@@ -1,0 +1,42 @@
+pkgname=st-test
+pkgver=0.0.1
+pkgrel=1
+pkgdesc='Simple (suckless) terminal with scrollback, ligatures and One Dark color scheme'
+url=https://github.com/h-ayat/st
+arch=(i686 x86_64)
+license=(MIT)
+depends=(libxft harfbuzz)
+optdepends=(
+	'libxft-bgra: if st crashes when viewing emojis'
+	'libxft-bgra-git: if st crashes when viewing emojis')
+makedepends=(git libxext ncurses)
+source=(
+	git://github.com/h-ayat/st
+	config.mk)
+sha256sums=(
+	'SKIP'
+	'SKIP')
+provides=(st)
+conflicts=(st)
+
+pkgver() {
+	cd st
+	echo "$pkgver"
+}
+
+prepare() {
+	cp config.mk st/
+	cd st
+	sed -i '/tic /d' Makefile
+}
+
+build() {
+	cd st
+	make
+}
+
+package() {
+	cd st
+	make DESTDIR="${pkgdir}" install
+	install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
