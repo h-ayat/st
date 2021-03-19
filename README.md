@@ -20,7 +20,7 @@ Available in the AUR as [st-monosans-git](https://aur.archlinux.org/packages/st-
 
 ## Installation on other distributions
 
-At first you'll need to install the `JetBrains Mono` typeface. But you can easily get rid of this dependency by changing `JetBrains Mono` to `monospace` in **config.h**.
+At first you'll need to install the `JetBrains Mono` typeface. But you can easily get rid of this dependency by changing `JetBrains Mono` to `monospace` or any other monospace font in **config.h**.
 ```
 git clone https://github.com/monosans/st
 cd st
