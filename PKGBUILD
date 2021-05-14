@@ -2,7 +2,7 @@
 
 pkgname=st-monosans-git
 _pkgname=st
-pkgver=0.8.4.r1149.af8d46b
+pkgver=0.8.4.r1152.18f0f20
 pkgrel=1
 pkgdesc="Simple (suckless) terminal with scrollback, ligatures and One Dark color scheme"
 url='https://github.com/monosans/st'
