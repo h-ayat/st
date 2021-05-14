@@ -16,7 +16,7 @@ The [simple terminal (st)](https://st.suckless.org) with some additional feature
 
 ## Installation on Arch Linux based distributions
 
-To compile dwm you need to install the `base-devel` package group if you haven't done it previously.
+To compile st you need to install the `base-devel` package group if you haven't done it previously.
 
 ```
 git clone https://github.com/monosans/st
