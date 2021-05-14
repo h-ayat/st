@@ -4,23 +4,30 @@ The [simple terminal (st)](https://st.suckless.org) with some additional feature
 
 ## Features
 
-+ Ligatures.
-+ JetBrains Mono typeface at 15pt by default.
-+ Three-line (configurable via config.h) scrollback using mouse wheel only.
-+ Color scheme inspired by the One Dark syntax theme for the Atom text editor.
+- Ligatures.
+- JetBrains Mono typeface at 15pt by default.
+- Three-line (configurable via config.h) scrollback using mouse wheel only.
+- Color scheme inspired by the One Dark syntax theme for the Atom text editor.
 
 ## Bindings
 
-+ **Scrollback** with `MouseWheel` or `Shift+{PageUp, PageDown}`
-+ **Zoom/change font size** with `Shift+Ctrl+{PageUp, PageDown}`
+- **Scrollback** with `MouseWheel` or `Shift+{PageUp, PageDown}`
+- **Zoom/change font size** with `Shift+Ctrl+{PageUp, PageDown}`
 
-## Installation on Arch Linux and Arch Linux based distributions
+## Installation on Arch Linux based distributions
 
-Available in the AUR as [st-monosans-git](https://aur.archlinux.org/packages/st-monosans-git)
+To compile dwm you need to install the `base-devel` package group if you haven't done it previously.
+
+```
+git clone https://github.com/monosans/st
+cd st
+makepkg -si
+```
 
 ## Installation on other distributions
 
 At first you'll need to install the `JetBrains Mono` typeface. But you can easily get rid of this dependency by changing `JetBrains Mono` to `monospace` or any other monospace font in **config.h**.
+
 ```
 git clone https://github.com/monosans/st
 cd st
